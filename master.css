@@ -1,0 +1,74 @@
+/*css di elementi generali*/
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+}
+
+body > div {
+  background-color: hsla(30, 7%, 14%, 0.73);
+  border-radius: 10px;
+  width: 650px;
+  margin:auto;
+  padding: 60px;
+}
+
+/*immagine logo*/
+header > img {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+/*barra sotto logo e pulsanti */
+nav {
+  text-align: center;
+}
+
+nav div:first-child{
+    color: #32cd32;
+    font-size: 28px;
+    padding: 5px;
+}
+
+nav div:last-of-type{
+  background-color: #32cd32;
+  padding: 10px;
+}
+
+/*specifiche testo corpo principale*/
+main > div {
+  color: white;
+  padding: 15px 0px;
+  font-size: 15px;
+}
+
+main .simbolo:before {
+  content: "\21A6";
+}
+
+main div > div:first-child {
+  font-size: 22px;
+}
+
+/*barre colorate di batteria*/
+main #batteryFull {
+  background-color: #32cd32;
+  width: 500px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+main #batteryMid{
+  background-color: orange;
+  width: 350px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+main #batteryLow{
+  background-color: red;
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+}
